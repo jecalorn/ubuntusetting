@@ -1,0 +1,54 @@
+"colorscheme用于选择配色方案 
+colorscheme desert
+
+
+" 设定默认解码 
+set fenc=utf-8 
+set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936 
+
+set smarttab
+
+" 设置tab符长度为4个空格
+set tabstop=4
+
+" 设置换行自动缩进长度为4个空格
+set shiftwidth=4
+
+" 设置tab符自动转换为空格
+set expandtab
+
+" 设置智能缩进，其他可选缩进方式：autoindent, cindent, indentexpr
+set smartindent
+
+
+" 设置显示行号，关闭行号显示命令：set nonumber
+set number
+
+
+" 语法高亮 
+syntax enable
+syntax on 
+
+" 侦测文件类型 
+filetype on 
+
+" 智能补全
+set completeopt=longest,menu
+
+" 为特定文件类型载入相关缩进文件 
+filetype indent on 
+
+" 高亮显示匹配的括号 
+set showmatch 
+
+" 在搜索的时候忽略大小写 
+set ignorecase 
+
+" 为C程序提供自动缩进 
+set smartindent 
+
+" 使用C样式的缩进 
+set cindent 
+
+
+

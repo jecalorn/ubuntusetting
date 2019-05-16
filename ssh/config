@@ -1,0 +1,14 @@
+# gitlab
+Host github.com
+Port 22
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/github_rsa
+User jecalorn
+ 
+# deepblue
+Host gerrit.deepblueai.com
+HostName gerrit.deepblueai.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+User zhangfy

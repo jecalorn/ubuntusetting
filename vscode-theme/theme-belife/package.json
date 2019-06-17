@@ -1,0 +1,22 @@
+{
+	"name": "theme-belife",
+	"displayName": "theme-belife",
+	"description": "Belife self",
+	"version": "1.0.0",
+	"publisher": "belife",
+	"engines": {
+		"vscode": "*"
+	},
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Belife Light",
+                "uiTheme": "vs",
+                "path": "./themes/belife-light-color-theme.json"
+            }
+       ]
+    }
+}
